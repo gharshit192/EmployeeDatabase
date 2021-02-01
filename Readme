@@ -1,0 +1,2 @@
+Compile Schema
+java -jar  ../../Downloads/avro-tools-1.8.1.jar compile schema src/main/java/avro/emp.avsc  src/main/java

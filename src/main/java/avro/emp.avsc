@@ -1,0 +1,27 @@
+{
+    "type" : "record",
+    "namespace" : "model",
+    "name" : "EmployeeDatabase",
+    "fields":
+  [
+    {
+            "name" : "name",
+            "type" : ["null","string"],
+            "default": null
+    },
+    {
+            "name" : "salary",
+            "type" : ["null","double"],
+            "default": null
+    },
+    {
+            "name" : "age",
+            "type" : "int"
+    },
+    {
+            "name" : "empMobile",
+            "type" : ["null","long"],
+            "default": null
+    }
+  ]
+}
